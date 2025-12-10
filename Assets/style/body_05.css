@@ -1,0 +1,99 @@
+#body_05 {
+  margin: 0;
+  padding: 0;
+  height: 190vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background: #000000;
+}
+.top-equipe {
+  text-align: center;
+}
+.p {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "titulo-01";
+}
+.fame {
+  color: rgb(0, 116, 184);
+  font-size: 19px;
+  font-family: "titulo-01";
+}
+.center-equipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.encima-equipe {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.encima-equipe div {
+  margin: 60px;
+}
+.embaixo div {
+  margin: 60px;
+}
+.encima-equipe .img {
+  width: 180px;
+  border-radius: 10px;
+}
+.embaixo .img {
+  width: 180px;
+  border-radius: 10px;
+}
+.embaixo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.name-people {
+  margin-top: 16px;
+  font-size: 19px;
+  font-family: sans-serif;
+  color: #ffffff;
+  border-bottom: 3px solid rgb(216, 216, 216);
+}
+.actividade {
+  margin-top: 10px;
+  color: aliceblue;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.encima-equipe span a img {
+  width: 30px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.embaixo span a img {
+  width: 30px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+@media (max-width: 900px) {
+  #body_05 {
+    height: 410vh;
+  }
+  .encima-equipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .encima-equipe div {
+    margin: 10px;
+  }
+  .embaixo div {
+    margin: 10px;
+  }
+  .embaixo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}

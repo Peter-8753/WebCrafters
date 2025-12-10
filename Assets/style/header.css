@@ -1,0 +1,54 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 100;
+  margin-top: 20px;
+  gap: 200px;
+}
+h1 {
+  font-family: "titulo";
+  font-size: 2rem;
+  color: #ffffff;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+nav img {
+  width: 40px;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+nav,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.nav-destaque {
+  color: rgb(0, 116, 184);
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.contacto {
+  padding: 9px 10px;
+  border: 1px solid rgb(0, 116, 184);
+  border-radius: 9px;
+  font-family: monospace;
+}

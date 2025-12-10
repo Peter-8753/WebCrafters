@@ -1,0 +1,123 @@
+#body_01 {
+  background-image: url("../img/linhas-de-grade-de-perspectiva-abstrata-em-fundo-preto_1017-47349.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.informacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-people {
+  margin-top: 90px;
+  display: flex;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  animation: flutuar 7s ease-in-out infinite;
+  background: linear-gradient(150deg, rgb(0, 217, 255), rgb(44, 43, 43));
+}
+@keyframes flutuar {
+  0%,
+  100% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+}
+@keyframes batimento {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+.logo-people img {
+  width: 100%;
+}
+.informacao-we {
+  text-align: center;
+}
+.quem-somos {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "titulo-01";
+}
+.nossa-sector {
+  color: rgb(0, 116, 184);
+  font-size: 19px;
+  font-family: "titulo-01";
+}
+.descricao {
+  width: 900px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+.contacto-btn {
+  padding: 15px 24px;
+  border: 1px solid rgb(0, 116, 184);
+  border-radius: 30px;
+  font-family: monospace;
+}
+
+.btn {
+  animation: batimento 5s ease-in-out infinite;
+  margin-top: 4%;
+}
+@media (max-width: 900px) {
+  #body_01 {
+    background-image: url("../img/linhas-de-grade-de-perspectiva-abstrata-em-fundo-preto_1017-47349.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+  }
+  nav,
+  .contacto {
+    display: none;
+  }
+
+  h1 {
+    font-family: "titulo";
+    font-size: 2rem;
+    color: #ffffff;
+    margin-right: 50%;
+  }
+  .descricao {
+    width: 300px;
+    font-size: 13px;
+  }
+  .informacao-we {
+    text-align: center;
+  }
+  .btn {
+    margin-top: 10%;
+  }
+  .quem-somos {
+    font-size: 2rem;
+  }
+  .contacto-btn {
+    padding: 9px 10px;
+    border: 1px solid rgb(0, 116, 184);
+    border-radius: 10px;
+    font-family: monospace;
+    color: rgb(0, 116, 184);
+    font-size: 18px;
+  }
+}
